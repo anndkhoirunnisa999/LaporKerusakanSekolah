@@ -2,7 +2,7 @@
 
 LAPOR SEKOLAH adalah aplikasi untuk melaporkan kerusakan fasilitas sekolah, seperti meja, kursi, komputer, atau fasilitas lainnya. Aplikasi dibuat menggunakan MIT App Inventor dan terhubung ke database MySQL melalui PHP.
 
-1. Alur kerja aplikasi dari awal
+Alur kerja aplikasi dari awal
 
 1. Login
 Siswa memasukkan username dan password.
