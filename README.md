@@ -7,19 +7,20 @@ Alur kerja aplikasi dari awal
 1. Login
 Siswa memasukkan username dan password.
 
-2. Dashboard
+4. Dashboard
 Siswa memilih menu buat laporan atau riwayat laporan.
 
-3. Input Laporan
+6. Input Laporan
 Siswa mengisi nama fasilitas, kategori kerusakan, deskripsi, dan mengambil foto menggunakan kamera.
 
-4. PHP dan Database MySQL
+9. PHP dan Database MySQL
 PHP menerima data laporan dan menyimpannya ke database dengan status awal Menunggu.
 
-5. Riwayat Laporan
+11. Riwayat Laporan
 Siswa melihat laporan yang pernah dikirim beserta status dan tanggalnya.
-2. Cara kerja status laporan
 
+
+Cara kerja status laporan
 Status laporan dapat diperbarui oleh admin melalui halaman Web Admin PHP.
 
 Menunggu
@@ -33,12 +34,11 @@ Perbaikan atau penanganan laporan telah selesai.
 
 Ketika admin mengubah status di Web Admin, data status tersimpan di MySQL. Aplikasi siswa akan menampilkan status terbaru ketika data riwayat dimuat kembali.
 
-3. Cara kerja Web Admin
 
+Cara kerja Web Admin
 Web Admin merupakan halaman terpisah dari aplikasi Android yang dibuat menggunakan PHP.
 
 Admin dapat:
-
 - Melihat seluruh laporan yang masuk.
 - Melihat rekap jumlah laporan.
 - Mengubah status laporan menjadi Menunggu, Diproses, atau Selesai.
@@ -47,8 +47,8 @@ Admin dapat:
 
 Rekap jumlah laporan dihitung berdasarkan data di database MySQL.
 
-4. Teknologi yang digunakan
 
+Teknologi yang digunakan
 MIT App Inventor : Membuat tampilan dan navigasi aplikasi Android   
 Kamera           : Mengambil foto kerusakan fasilitas               
 PHP              : Menghubungkan aplikasi dengan database           
