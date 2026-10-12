@@ -48,6 +48,7 @@ Admin dapat:
 Rekap jumlah laporan dihitung berdasarkan data di database MySQL.
 
 4. Teknologi yang digunakan
+
 MIT App Inventor : Membuat tampilan dan navigasi aplikasi Android   
 Kamera           : Mengambil foto kerusakan fasilitas               
 PHP              : Menghubungkan aplikasi dengan database           
